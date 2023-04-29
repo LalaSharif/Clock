@@ -1,0 +1,19 @@
+body {
+  background: #000000;
+  color: #ffed00;
+  font-family: "Share Tech Mono", monospace;
+}
+
+.text h1 {
+  display: flex;
+  justify-content: center;
+}
+
+.clock {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  font-size: 120px;
+  letter-spacing: 1px;
+}
